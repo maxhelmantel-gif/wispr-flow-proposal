@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Back to Being × Wispr Flow — Partnership Proposal</title>
-<meta name="description" content="Making the voice-first future visible. A partnership proposal for Wispr Flow." />
+<title>Back to Being × Wispr — Partnership Proposal</title>
+<meta name="description" content="Technology should make us more human. A partnership proposal for Wispr." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 24'%3E%3Cg fill='%2397A081'%3E%3Cpolygon points='13,1 17,1 15,11'/%3E%3Cpolygon points='1,5 5,3 11,12 6,14'/%3E%3Cpolygon points='31,5 27,3 21,12 26,14'/%3E%3C/g%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,8 +33,8 @@
     color:var(--ink); font-size:clamp(40px,5.8vw,82px); }
   h1.xl,h2.xl{font-size:clamp(46px,6.8vw,94px);}
   .it{font-style:italic; color:var(--grass);}
-  .lead{ font-family:var(--sans); font-weight:400; line-height:1.55; color:var(--bodyink);
-    font-size:clamp(18px,1.65vw,22px); max-width:48ch; margin-top:clamp(18px,2.2vw,28px); }
+  .lead{ font-family:var(--sans); font-weight:400; line-height:1.6; color:var(--bodyink);
+    font-size:clamp(18px,1.65vw,22px); max-width:50ch; margin-top:clamp(18px,2.2vw,28px); }
   .lead .em{color:var(--ink); font-weight:500;}
 
   .slide.dark{background:var(--creek); color:var(--canvas);}
@@ -46,50 +46,51 @@
   .slide.dark .lead{color:rgba(255,254,241,.8);}
   .slide.dark .lead .em{color:#fff;}
 
-  /* cover — centered title card */
   .slide.cover{text-align:center;}
-  .slide.cover .inner{max-width:780px;}
+  .slide.cover .inner{max-width:800px;}
   .cover-mark{width:clamp(78px,9vw,116px); color:var(--grass); margin:0 auto clamp(22px,2.6vw,32px);}
   .wordmark{font-family:var(--sans); font-weight:500; font-size:clamp(15px,1.5vw,19px); letter-spacing:.06em; color:var(--grass); text-transform:lowercase; margin-bottom:clamp(26px,3.4vw,46px);}
   .cover h1{font-size:clamp(44px,6.6vw,92px);}
   .cover .eyebrow{margin:clamp(24px,3vw,36px) 0 0; color:var(--muted);}
   .cover-meta{font-family:var(--sans); font-size:clamp(12px,1.1vw,14px); color:var(--muted); letter-spacing:.03em; margin-top:14px;}
 
-  /* shift visual (slide 2) */
-  .shift{display:flex; align-items:center; gap:clamp(12px,1.8vw,24px); margin-top:clamp(40px,5vw,64px); max-width:640px;}
-  .shift-node{display:flex; flex-direction:column; gap:5px;}
-  .shift-node .yr{font-family:var(--serif); font-size:clamp(24px,2.6vw,36px); line-height:1; color:rgba(255,254,241,.85);}
-  .shift-node .lb{font-family:var(--sans); font-size:clamp(12px,1.1vw,14px); color:rgba(255,254,241,.55);}
+  /* from / to visual */
+  .shift{display:flex; align-items:center; gap:clamp(12px,1.8vw,24px); margin-top:clamp(40px,5vw,64px); max-width:600px;}
+  .shift-node{display:flex; flex-direction:column; gap:6px;}
+  .shift-node .big{font-family:var(--serif); font-size:clamp(24px,2.6vw,34px); line-height:1; color:rgba(255,254,241,.78);}
+  .shift-node .lb{font-family:var(--sans); font-size:clamp(12px,1.1vw,14px); color:rgba(255,254,241,.5);}
   .shift-node.now{text-align:right;}
-  .shift-node.now .yr{color:var(--sky);}
-  .shift-node.now .lb{color:rgba(167,189,213,.85);}
+  .shift-node.now .big{color:var(--sky);}
+  .shift-node.now .lb{color:rgba(167,189,213,.8);}
   .shift-line{flex:1; height:1px; background:rgba(255,254,241,.28);}
   .shift-arr{width:18px; height:18px; color:var(--sky); margin:0 -8px 0 -16px; flex:none;}
 
-  /* clean 3-col rows */
   .rows{ display:grid; grid-template-columns:repeat(3,1fr); margin-top:clamp(34px,4.5vw,54px);
     border-top:.5px solid rgba(42,55,35,.2); }
   .rows .col{ padding:clamp(18px,1.8vw,24px) clamp(20px,2vw,28px) 4px 0; }
   .rows .col + .col{ border-left:.5px solid rgba(42,55,35,.2); padding-left:clamp(20px,2vw,28px); }
   .rows .k{ font-family:var(--sans); font-weight:500; font-size:clamp(15px,1.35vw,18px); color:var(--ink); }
-  .rows .v{ font-family:var(--sans); font-weight:400; font-size:clamp(14px,1.2vw,16px); color:var(--muted); margin-top:6px; line-height:1.4; }
+  .rows .v{ font-family:var(--sans); font-weight:400; font-size:clamp(14px,1.2vw,16px); color:var(--muted); margin-top:6px; line-height:1.45; }
   .slide.dark .rows{border-color:rgba(255,254,241,.22);}
   .slide.dark .rows .col + .col{border-color:rgba(255,254,241,.22);}
   .slide.dark .rows .k{color:var(--canvas);}
   .slide.dark .rows .v{color:rgba(255,254,241,.62);}
 
   .kicker{ font-family:var(--serif); font-style:italic; font-size:clamp(20px,2vw,28px); color:var(--sand); margin-top:clamp(26px,3.2vw,40px); }
+  .slide:not(.dark) .kicker{color:var(--grass);}
 
-  /* route visual (slide 4) */
   .route{width:100%; max-width:760px; margin-top:clamp(34px,4.4vw,56px); height:auto; display:block;}
 
-  /* two-column ask */
   .duo{ display:grid; grid-template-columns:1fr 1fr; gap:clamp(28px,4vw,64px); margin-top:clamp(30px,3.6vw,46px); }
   .duo .blk{ border-top:.5px solid rgba(42,55,35,.2); padding-top:clamp(14px,1.5vw,18px); }
   .duo .lbl{ font-family:var(--sans); font-weight:500; font-size:clamp(13px,1.1vw,15px); color:var(--grass); margin-bottom:10px; }
-  .duo .txt{ font-family:var(--sans); font-weight:400; font-size:clamp(15px,1.3vw,18px); line-height:1.5; color:var(--bodyink); }
+  .duo .txt{ font-family:var(--sans); font-weight:400; font-size:clamp(15px,1.3vw,18px); line-height:1.55; color:var(--bodyink); }
 
-  /* contact links */
+  .proof{ display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 16px; margin-top:clamp(28px,3.4vw,42px);
+    border-top:.5px solid rgba(42,55,35,.2); padding-top:clamp(14px,1.6vw,18px); }
+  .proof .lbl{ font-family:var(--sans); font-weight:500; font-size:clamp(13px,1.1vw,15px); color:var(--grass); }
+  .proof .names{ font-family:var(--sans); font-weight:500; font-size:clamp(16px,1.5vw,20px); color:var(--ink); letter-spacing:.01em; }
+
   .links{ display:flex; flex-wrap:wrap; gap:clamp(14px,2vw,30px); margin-top:clamp(26px,3.2vw,40px); }
   .links a{ font-family:var(--sans); font-weight:400; font-size:clamp(15px,1.4vw,19px); color:var(--canvas);
     text-decoration:none; border-bottom:.5px solid rgba(255,254,241,.45); padding-bottom:3px; }
@@ -100,7 +101,6 @@
   .brandlock .wm{font-family:var(--sans); font-weight:500; font-size:clamp(15px,1.4vw,19px); letter-spacing:.01em; color:var(--grass);}
   .slide.dark .brandlock,.slide.dark .brandlock .wm{color:var(--canvas);}
 
-  /* quiet brand mark + counter */
   .mark{position:absolute; top:var(--pad); left:var(--pad); display:inline-flex; align-items:center; gap:.45em; color:var(--grass);}
   .mark svg{width:20px; height:auto;}
   .mark span{font-family:var(--sans); font-weight:400; font-size:13px; color:var(--muted); letter-spacing:.01em;}
@@ -162,35 +162,36 @@
     <div class="inner reveal">
       <svg class="cover-mark" viewBox="0 0 970.79 511.74"><use href="#logomark"/></svg>
       <div class="wordmark">back to being</div>
-      <h1>Making the voice-first future <span class="it">visible.</span></h1>
-      <div class="eyebrow" style="margin-bottom:0;">A partnership proposal for Wispr Flow</div>
+      <h1>Technology should make us <span class="it">more human.</span></h1>
+      <div class="eyebrow" style="margin-bottom:0;">A partnership proposal for Wispr</div>
       <div class="cover-meta">Summer 2026 · backtobeing.tech</div>
     </div>
   </section>
 
-  <!-- 2 · THE SHIFT -->
+  <!-- 2 · OUR VISION -->
   <section class="slide dark">
     <div class="mark"><svg viewBox="0 0 970.79 511.74"><use href="#logomark"/></svg><span>back to being</span></div>
     <div class="inner reveal">
-      <div class="eyebrow">The future you're building</div>
-      <h2 class="xl">The keyboard is 150 years old. <span class="it">Voice is what's next.</span></h2>
-      <p class="lead">Wispr's bet: speaking replaces typing as how we work — <span class="em">less screen time, more of being human.</span> We're betting on it too.</p>
+      <div class="eyebrow">Our vision</div>
+      <h2 class="xl">Being busy isn't being <span class="it">present.</span></h2>
+      <p class="lead">We're three builders who felt it ourselves: always on, always behind, never quite here. We think the best technology does the opposite of what it usually does. <span class="em">It gives us our attention back.</span></p>
       <div class="shift">
-        <div class="shift-node"><span class="yr">1874</span><span class="lb">the keyboard</span></div>
+        <div class="shift-node"><span class="big">always on</span><span class="lb">the default today</span></div>
         <span class="shift-line"></span>
         <svg class="shift-arr" viewBox="0 0 24 24"><use href="#arrowR"/></svg>
-        <div class="shift-node now"><span class="yr">today</span><span class="lb">your voice</span></div>
+        <div class="shift-node now"><span class="big">present</span><span class="lb">where we're headed</span></div>
       </div>
     </div>
   </section>
 
-  <!-- 3 · THE PROOF -->
+  <!-- 3 · NOT A STUNT -->
   <section class="slide">
     <div class="mark"><svg viewBox="0 0 970.79 511.74"><use href="#logomark"/></svg><span>back to being</span></div>
     <div class="inner reveal">
-      <div class="eyebrow">Our bet</div>
-      <h2 class="xl">So we'll prove it — <span class="it">out loud.</span></h2>
-      <p class="lead">Three founders. 115 km on foot. <span class="em">Real software, built with nothing but our voice</span> — no keyboard, no screen, no office.</p>
+      <div class="eyebrow">Why this is different</div>
+      <h2 class="xl">Not a stunt. Something that <span class="it">stays.</span></h2>
+      <p class="lead">Plenty of people walk a Camino. Far fewer leave something useful behind. We build a working AI tool for <span class="em">Stichting MIND</span>, a Dutch charity for youth mental health, and give it to them for free.</p>
+      <div class="kicker">The walk ends. The tool stays.</div>
     </div>
   </section>
 
@@ -200,7 +201,7 @@
     <div class="inner reveal">
       <div class="eyebrow">What we build</div>
       <h2>Software worth the <span class="it">walk.</span></h2>
-      <p class="lead">On the Camino, we build an AI app for youth mental health — and give it, free, to <span class="em">Stichting MIND.</span></p>
+      <p class="lead">We build the tool with MIND, around their real needs, so it <span class="em">takes routine work off their team</span> and frees them up for the young people who count on them. We build it on the move, by voice, with AI doing the heavy lifting.</p>
       <svg class="route" viewBox="0 0 920 108" role="img" aria-label="Route from Tui, Portugal to Santiago, Spain, 115 km over 6 days">
         <text x="460" y="20" text-anchor="middle" fill="#B9A26E" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="1.5">115 km · 6 days</text>
         <line x1="74" y1="58" x2="846" y2="58" stroke="#97A081" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="1.5 8" stroke-linecap="round"/>
@@ -214,19 +215,14 @@
     </div>
   </section>
 
-  <!-- 5 · WHY WISPR FLOW -->
+  <!-- 5 · THE FILM -->
   <section class="slide dark">
     <div class="mark"><svg viewBox="0 0 970.79 511.74"><use href="#logomark"/></svg><span>back to being</span></div>
     <div class="inner reveal">
-      <div class="eyebrow">Why this is yours</div>
-      <h2 class="xl">Your product, <span class="it">made human.</span></h2>
-      <p class="lead">Flow tries to disappear. The Camino is that idea at its most human: <span class="em">no screen — just intention, spoken aloud.</span></p>
-      <div class="rows">
-        <div class="col"><div class="k">Clarity</div><div class="v">a week to think, off the screen</div></div>
-        <div class="col"><div class="k">Connection</div><div class="v">three friends, one trail</div></div>
-        <div class="col"><div class="k">Agency</div><div class="v">build anywhere, just by speaking</div></div>
-      </div>
-      <div class="kicker">Not a logo on a shirt — in the product.</div>
+      <div class="eyebrow">The campaign</div>
+      <h2 class="xl">An awareness campaign, <span class="it">not an ad.</span></h2>
+      <p class="lead">We capture all of it in a documentary and share it honestly on social, the hard days included. The goal isn't views. <span class="em">It's getting a generation talking about mental health.</span> The story travels across film, TikTok, Instagram and YouTube.</p>
+      <div class="kicker">A story to be part of, not interrupt.</div>
     </div>
   </section>
 
@@ -235,13 +231,13 @@
     <div class="mark"><svg viewBox="0 0 970.79 511.74"><use href="#logomark"/></svg><span>back to being</span></div>
     <div class="inner reveal">
       <div class="eyebrow">The partnership</div>
-      <h2>A partner in <span class="it">the story.</span></h2>
-      <p class="lead">You've already given us three months of Flow. <span class="em">Here's how we go bigger.</span></p>
+      <h2>What we need, and what you <span class="it">get.</span></h2>
+      <p class="lead">We're building toward the same future as Wispr: one where your voice, not a keyboard, is how you work. So the ask is simple.</p>
       <div class="duo">
-        <div class="blk"><div class="lbl">We ask</div><div class="txt">Budget for the build and the film — and a leading role in how the story is told.</div></div>
-        <div class="blk"><div class="lbl">You get</div><div class="txt">An in-product hero story, reach across the documentary and social, and a walking workshop for your team.</div></div>
+        <div class="blk"><div class="lbl">What we need</div><div class="txt">Budget to build the tool and make the film, and your voice in how the story gets told.</div></div>
+        <div class="blk"><div class="lbl">What you get</div><div class="txt">Wispr proving itself in the real world, a voice-first story you can share, and real reach across the film and social. We make all of it. You only say yes.</div></div>
       </div>
-      <div class="eyebrow" style="margin:clamp(26px,3.2vw,38px) 0 0;">Alongside Techleap, AI.AM, LerAI and TAG.</div>
+      <div class="proof"><span class="lbl">Already on board</span><span class="names">Techleap · AI.AM · LerAI · TAG</span></div>
     </div>
   </section>
 
@@ -249,11 +245,10 @@
   <section class="slide tree dark">
     <div class="inner reveal">
       <div class="eyebrow">Let's build</div>
-      <h2 class="xl">Come build with us — <span class="it">back to being.</span></h2>
-      <p class="lead">Eyes up. Present. Human. Help us fund the journey and tell the story.</p>
+      <h2 class="xl">Come build with us. <span class="it">Back to being.</span></h2>
+      <p class="lead">Help us fund the walk, the tool and the film. We'll make something worth being part of.</p>
       <div class="links">
-        <a class="lead-link" href="https://cal.com/caesar-schoorl/back-to-being">Book a 20-min chat</a>
-        <a href="mailto:caesar.schoorl@gmail.com">caesar.schoorl@gmail.com</a>
+        <a class="lead-link" href="mailto:hello@backtobeing.tech">Let's talk</a>
         <a href="https://backtobeing.tech">backtobeing.tech</a>
       </div>
       <div class="brandlock" style="margin-top:clamp(36px,4.5vw,58px);"><svg viewBox="0 0 970.79 511.74"><use href="#logomark"/></svg><span class="wm">back to being</span></div>
