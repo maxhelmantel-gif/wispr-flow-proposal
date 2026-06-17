@@ -304,9 +304,8 @@
     try{
       var anim=lottie.loadAnimation({ container:document.getElementById('introAnim'), renderer:'svg', loop:false, autoplay:true, path:'logo-animation.json' });
       anim.setSpeed(1);
-      anim.addEventListener('complete', endIntro);
       anim.addEventListener('data_failed', endIntro);
-      setTimeout(endIntro, 6000);
+      setTimeout(endIntro, 3000);
     }catch(e){ endIntro(); }
   })();
 </script>
